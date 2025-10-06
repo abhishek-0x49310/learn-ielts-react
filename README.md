@@ -7,12 +7,17 @@ cd learn-ielts
 ```
 
 ## 2. Install Dependencies
-bash```npm install```
+`bash
+npm install
+`
 
 ## 3. Run development server
-bash```npm run dev```
+`bash
+npm run dev
+`
 
 ## 4. Run production server
-bash```
+```bash
 npm run build
-npx serve dist```
+npx serve dist
+```
