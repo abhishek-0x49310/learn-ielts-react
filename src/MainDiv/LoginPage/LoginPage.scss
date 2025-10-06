@@ -1,0 +1,110 @@
+.login-page {
+    position: fixed;
+    top: var(--titlebar-height);
+    right: 100vw;
+    width: 100%;
+    height: calc(100dvh - var(--titlebar-height));
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > .close-button {
+        align-self: flex-end;
+        margin-top: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    > .close-button:hover {
+        transition: transform 0.3s ease;
+        transform: scale(0.9);
+    }
+
+    > div {
+        border-radius: 10px;
+        background-color: var(--bg-primary);
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        height: clamp(300px, 50%, 500px);
+        box-shadow: 1px 1px 30px 2px black;
+        overflow: hidden;
+        position: relative;
+        margin: auto 0;
+
+        .content-div {
+            flex-shrink: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            position: relative;
+            border-radius: 10px;
+            padding: 10px;
+            height: 100%;
+            width: clamp(300px, 40vw, 400px);
+
+            > .sub-container {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                gap: 5px;
+                margin-bottom: 5px;
+
+                > .input-container {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    flex-shrink: 1;
+                }
+            }
+
+            > .input-container {
+                width: 100%;
+            }
+
+            > .button-div {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            
+            > p {
+                margin: 0;
+                font-size: 15px;
+
+                > span {
+                    color: var(--colour-2);
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .content-div.hide {
+            box-shadow: 1px 1px 10px 2px black;
+        }
+
+        .cover {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(to bottom right, var(--colour-2), var(--colour-1));
+            transition: width 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            overflow: hidden;
+            font-size: 30px;
+            color: var(--text-in-colour);
+        }
+        .cover.hide {
+            width: 0%;
+        }
+    }
+}

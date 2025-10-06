@@ -1,0 +1,22 @@
+.button-div {
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, var(--colour-2), var(--colour-1));
+    border: none;
+    color: var(--text-in-colour);
+    font-weight: bold;
+    font-family: "Alan Sans", sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform ease-in-out 0.5s;
+}
+
+.button-div:active {
+    transform: scale(0.9);
+}
+.button-div:hover {
+    box-shadow: 1px 1px 30px 2px var(--colour-2);
+    cursor: pointer;
+}

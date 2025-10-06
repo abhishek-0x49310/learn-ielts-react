@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    background-color: var(--bg-primary-2);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    > .row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 15px;
+
+        > .section {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            font-size: clamp(10px, 3vw, 15px);
+            max-width: 40%;
+
+            > .title {
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+
+            > .row {
+                display: flex;
+                flex-direction: row;
+                gap: 5px;
+                align-items: center;
+
+                > img {
+                    height: 24px;
+                    width: auto;
+                }
+            }
+
+            > pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                font-family: "Alan Sans", sans-serif;
+            }
+        }
+    }
+
+    > span {
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
