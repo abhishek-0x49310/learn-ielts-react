@@ -31,3 +31,7 @@ This is an IELTS Training Website built using React and Vite. It provides a fron
 The project includes dummy login and signup functionality that simulates backend behavior — users can log in and interact with the app without any actual email or password verification. Similarly, the app imitates receiving and displaying data as if it were coming from a server.
 
 All features are fully functional on the frontend, demonstrating UI design, animations, responsive layouts, and interactivity.
+
+# UI Samples
+
+![abc](./ui-samples/Untitled.png)
