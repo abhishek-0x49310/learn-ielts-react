@@ -1,8 +1,10 @@
 # Setup Instructions
 
 ## 1. Clone Repo
-bash```git clone dfsfdf
-cd learn-ielts```
+```bash
+git clone dfsfdf
+cd learn-ielts
+```
 
 ## 2. Install Dependencies
 bash```npm install```
