@@ -34,14 +34,14 @@ All features are fully functional on the frontend, demonstrating UI design, anim
 
 # UI Samples
 
-![home-page](./ui-samples/home.png)
+<img src="./ui-samples/home.png" width="600px" height="auto" alt="home page" />
 
-![login-page](./ui-samples/login.png)
+<img src="./ui-samples/login.png" width="600px" height="auto" alt="login page" />
 
-![sign up-page](./ui-samples/signup.png)
+<img src="./ui-samples/signup.png" width="600px" height="auto" alt="sign up page" />
 
-![navigation bar and main page](./ui-samples/nav-mid.png)
+<img src="./ui-samples/nav-mid.png" width="600px" height="auto" alt="navigation bar and main page" />
 
-![reviews and footer](./ui-samples/footer.png)
+<img src="./ui-samples/lesson.png" width="600px" height="auto" alt="lessons page" />
 
-<img src="./ui-samples/home.png" width="600px" height="auto" />
+<img src="./ui-samples/footer.png" width="600px" height="auto" alt="reviews and footer" />
