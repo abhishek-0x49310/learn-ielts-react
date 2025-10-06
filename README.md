@@ -1,8 +1,8 @@
 # Setup Instructions
 
 ## 1. Clone Repo
-bash ```git clone dfsfdf```
-bash ```cd learn-ielts```
+bash```git clone dfsfdf
+cd learn-ielts```
 
 ## 2. Install Dependencies
 bash```npm install```
@@ -13,5 +13,4 @@ bash```npm run dev```
 ## 4. Run production server
 bash```
 npm run build
-npx serve dist
-```
+npx serve dist```
