@@ -3,6 +3,8 @@
 ## 1. Clone Repo
 ```bash
 git clone https://github.com/abhishek-0x49310/learn-ielts-react.git
+```
+```bash
 cd learn-ielts
 ```
 
