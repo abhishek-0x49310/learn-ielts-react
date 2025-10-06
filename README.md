@@ -32,7 +32,7 @@ The project includes dummy login and signup functionality that simulates backend
 
 All features are fully functional on the frontend, demonstrating UI design, animations, responsive layouts, and interactivity.
 
-# UI Samples
+# 🖼️ UI Samples
 
 <img src="./ui-samples/home.png" width="600px" height="auto" alt="home page" />
 
