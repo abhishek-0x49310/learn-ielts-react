@@ -34,4 +34,12 @@ All features are fully functional on the frontend, demonstrating UI design, anim
 
 # UI Samples
 
-![abc](./ui-samples/Untitled.png)
+![home-page](./ui-samples/home.png)
+
+![login-page](./ui-samples/login.png)
+
+![sign up-page](./ui-samples/signup.png)
+
+![navigation bar and main page](./ui-samples/nav-mid.png)
+
+![reviews and footer](./ui-samples/footer.png)
