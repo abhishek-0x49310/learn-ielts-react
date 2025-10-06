@@ -1,4 +1,4 @@
-# Setup Instructions
+# **Setup Instructions**
 
 ## 1. Clone Repo
 ```bash
@@ -24,7 +24,7 @@ npm run build
 npx serve dist
 ```
 
-# ℹ️ About the Project
+# ℹ️ **About the Project**
 
 This is an IELTS Training Website built using React and Vite. It provides a frontend-only experience without a real backend. 
 
@@ -32,7 +32,7 @@ The project includes dummy login and signup functionality that simulates backend
 
 All features are fully functional on the frontend, demonstrating UI design, animations, responsive layouts, and interactivity.
 
-# 🖼️ UI Samples
+# 🖼️ **UI Samples**
 
 <img src="./ui-samples/home.png" width="600px" height="auto" alt="home page" />
 
