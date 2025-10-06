@@ -5,7 +5,7 @@
 git clone https://github.com/abhishek-0x49310/learn-ielts-react.git
 ```
 ```bash
-cd learn-ielts
+cd learn-ielts-react
 ```
 
 ## 2. Install Dependencies
