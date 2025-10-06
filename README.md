@@ -43,3 +43,5 @@ All features are fully functional on the frontend, demonstrating UI design, anim
 ![navigation bar and main page](./ui-samples/nav-mid.png)
 
 ![reviews and footer](./ui-samples/footer.png)
+
+<img src="./ui-samples/home.png" width="400px" height="auto" />
